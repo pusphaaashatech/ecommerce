@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --black: #000; /* Define your root color variable */
+    --white:#fff;
+    --gray: gray;
+    --primaryFont:'Poppins', sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    font-family: var(--primaryFont);
+  }
+.btn {
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black); 
+    border-radius: 23px;
+    padding: 5px 15px;
+    transition: 0.2s linear;
+    margin: 15px 0 30px;
+  }
+.btn:hover{
+    color: var(--black);
+    border: 1px solid var(--black); 
+}
+.btn_2{
+    background: var(--white);
+    color: var(--black);
+    border: 1px solid var(--white);
+    border-radius: 23px;
+    padding: 5px 15px;
+    transition: 0.2s linear;
+    margin: 15px 0px 30px;
+}
+.btn_2:hover{
+    color: var(--white);
+    border: 1px solid var(--white); 
+    background: var(--black);
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+ul li{
+    list-style: none;
+}
+.section{
+    padding: 30px 0;
+}
+.title{
+   padding: 15px 0 30px; 
+}
+.top span{
+    font-size: 10px !important;
+    color: var(--gray);
+    border-left: 1px solid var(--gray);
+    padding-left: 5px;
+}
+.top a i{
+    color: var(--black);
+}
+.banner .banner1{
+    background: url(/img/intro-banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px; 
+}
+.banner .banner2{
+    background: url(/img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.summer-sale .cat1{
+    background: url(/img/cat-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+   
+}
+
+.summer-sale .product{
+    padding: 30px 0;
+}
+.summer-sale span{
+    color: var(--gray);
+}
+.summer-sale .cat2{
+    background: url(/img/cat-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.summer-sale p{
+    color:var(--gray) ;
+}
+.feature_title{
+    padding: 20% 23px;
+}
+.best-selling .banner3{
+    background: url(/img/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 870px;
+    /* width: 330px; */
+}
+.best-selling_products{
+    padding: 15px 0 40px;
+}
+.featured .banner4{
+    background: url(img/banner-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 870px;
+    /* width: 330px; */
+}
+.featured_products{
+    padding: 15px 0 40px;
+}
+.meet .meet_subscribe a{
+font-size: 14px;
+margin-top: 30px;
+}
+.meet .banner5{
+    background: url(img/banner-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+   
+}
+
+.meet .banner6{
+    background: url(img/banner-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    
+}
+footer{
+    background: #000;
+    color: var(--white) !important; 
+}
+footer a{
+    color:var(--gray) !important;
+}
+footer p{
+    color: var(--gray);
+}
+
+@media only screen and (max-width:500px){
+    .summer-sale .cat1{
+       background: url(/img/cat-1.jpg),rgba(0, 0, 0, 0.5);  
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+    }
+  
+}
